@@ -15,7 +15,7 @@ Feature: User login
 
     Examples:
     | password   |                          error                                                     |
-    | 'a@34567'  | 'Sorry, that password is too short. It needs to be eight characters or more.'      |
+    | 'a@34567'  | "Sorry, that password is too short. It needs to be eight characters or more."      |
     | 'abcd1234' | "Sorry, that password isn't valid. Make sure it's hard to guess."                  |
     | 'abcdefgh' | "Sorry, that password isn't valid. Please include something that isn't a letter."  |
     | '12345678' | "Sorry, that password isn't valid. Please include a letter."                       |
